@@ -1,0 +1,36 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  font-size: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  background: linear-gradient(135deg, white, #fff5f5);
+  color: #ce9797;
+}
+
+header {
+  text-align: left;
+  height: 5.25rem;
+}
+
+.hero-img {
+  margin: auto 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.hero-img img {
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
