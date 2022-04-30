@@ -22,7 +22,7 @@
     }
 
     .attribution a {
-      color: hsl(228, 45%, 44%);
+      color: hsl(0, 6%, 24%)  ;
     }
   </style>
 </head>
@@ -31,22 +31,28 @@
   <header>
     <a href="/"><img src="/images/logo.svg" alt="Base Apparel logo"></a>
   </header>
-  <div class="hero-img">
-    <img src="/images/hero-mobile.jpg" alt="A woman in a salmon-colored blouse">
-  </div>
-  <div>
-    <h1>We're coming soon</h1>
-    <p>Hello fellow shoppers! We're currently building our new
-      fashion store. Add your email below to stay up-to-date with announcements
-      and our launch deals.
-    </p>
-  </div>
 
+  <main>
+    <div class="hero-img">
+      <img src="/images/hero-mobile.jpg" alt="A woman in a salmon-colored blouse">
+    </div>
+    <div class="description">
+      <h1>We're <span class="enphasis">coming soon</span></h1>
+      <p>Hello fellow shoppers! We're currently building our new
+        fashion store. Add your email below to stay up-to-date with announcements
+        and our launch deals.
+      </p>
+    </div>
+    <form class="mail-form">
+      <input placeholder="Email addres" class="form-btn input">
+      <button class="form-btn submit"><img src="/images/icon-arrow.svg"></button>
+    </form>
+  </main>
   <footer>
     <p class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
-        href="#">Your Name Here</a>.
+        href="https://github.com/EdwinCacuango" target="_blank">Edwin Cacuango</a>.
     </p>
   </footer>
 </body>
